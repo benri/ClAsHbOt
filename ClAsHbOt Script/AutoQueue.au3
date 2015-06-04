@@ -16,6 +16,8 @@ Func AutoQueueTroops()
 	  EndIf
    EndIf
 
+   OpenArmyCampWindow()
+
    GetArmyCampTroopCounts($availableTroopCounts)
 
    CloseArmyCampWindow()
